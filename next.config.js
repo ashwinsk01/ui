@@ -11,7 +11,7 @@ module.exports = withImages({
   publicRuntimeConfig: {
     endpoint: process.env.ENDPOINT || '/graphql',
     spa: !!process.env.SPA || false,
-    mainBackground: process.env.MAIN_BACKGROUND || '#8FA2A6'
+    mainBackground: process.env.MAIN_BACKGROUND || '#344955'
   },
   serverRuntimeConfig: {
     endpoint: process.env.SERVER_ENDPOINT || process.env.ENDPOINT || '/graphql',

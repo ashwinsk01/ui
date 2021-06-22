@@ -241,9 +241,6 @@ export const Structure: FunctionComponent<Props> = (props) => {
                 ))}
               </Select>
             </Menu.Item>
-            <Menu.Item style={{ display: 'flex', alignItems: 'center' }}>
-              <GitHubButton type="stargazers" namespace="ohmyform" repo="ohmyform" />
-            </Menu.Item>
             <Menu.Item>
               Version: <Tag color="gold">{process.env.version}</Tag>
             </Menu.Item>
